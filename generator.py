@@ -515,6 +515,11 @@ skip_impl = (
     'virNetworkPortGetParameters',
     'virNetworkPortSetParameters',
     'virDomainGetGuestInfo',
+    'virDomainAuthorizedSSHKeysGet',
+    'virDomainAuthorizedSSHKeysSet',
+    'virDomainGetMessages',
+    'virDomainSetLaunchSecurityState',
+    'virNodeDeviceGetAutostart'
 )
 
 lxc_skip_impl = (
