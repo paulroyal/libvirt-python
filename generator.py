@@ -519,7 +519,10 @@ skip_impl = (
     'virDomainAuthorizedSSHKeysSet',
     'virDomainGetMessages',
     'virDomainSetLaunchSecurityState',
-    'virNodeDeviceGetAutostart'
+    'virNodeDeviceGetAutostart',
+    'virDomainFDAssociate',
+    'virDomainRestoreParams',
+    'virDomainSaveParams'
 )
 
 lxc_skip_impl = (
