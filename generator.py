@@ -522,7 +522,8 @@ skip_impl = (
     'virNodeDeviceGetAutostart',
     'virDomainFDAssociate',
     'virDomainRestoreParams',
-    'virDomainSaveParams'
+    'virDomainSaveParams',
+    'virDomainQemuMonitorCommandWithFiles'
 )
 
 lxc_skip_impl = (
