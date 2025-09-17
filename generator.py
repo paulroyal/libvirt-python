@@ -658,6 +658,7 @@ skip_function = (
     'virDomainFSInfoFree', # only useful in C, python code uses list
     'virDomainIOThreadInfoFree', # only useful in C, python code uses list
     'virDomainInterfaceFree', # only useful in C, python code uses list
+    'virDomainQemuMonitorCommandWithFiles'
 )
 
 lxc_skip_function = (
