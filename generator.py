@@ -533,6 +533,7 @@ lxc_skip_impl = (
 qemu_skip_impl = (
     'virDomainQemuMonitorCommand',
     'virDomainQemuAgentCommand',
+    'virDomainQemuMonitorCommandWithFiles'
 )
 
 
